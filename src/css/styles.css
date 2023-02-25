@@ -1,0 +1,179 @@
+.page {
+    background-color: rgb(139, 215, 236);
+    font-family: sans-serif;
+    color: #000;
+
+}
+
+.container {
+    margin: 0 auto;
+    top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    padding-top: 100px;
+    display: grid;
+    max-width: 1140px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 340px;
+    grid-gap: 12px;
+    grid-auto-columns: auto;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.search-form {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 122);
+}
+
+.search-input {
+    margin: 50px 0;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border-color: transparent;
+}
+
+.gallery-item {
+    height: auto;
+    color: #212121;
+    text-decoration: none;
+    position: relative;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 240px;
+    max-width: 340px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 340px;
+    gap: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.more-btn {
+    font-size: 16px;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+    color: white;
+    background: #1058bd;
+}
+
+.more-btn:hover {
+    background-color: rgb(24, 122, 202);
+}
+
+.more-btn:disabled {
+    background-color: #c1c1c1;
+    cursor: not-allowed;
+}
+
+.more-btn.hidden {
+    display: none;
+}
+
+.query-btn {
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: #1058bd;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
