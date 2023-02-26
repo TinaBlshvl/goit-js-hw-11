@@ -9,6 +9,7 @@ let inputText = '';
 
 const form = document.getElementById("search-form");
 const galleryWrapper = document.querySelector('.gallery');
+const moreLoadImages = document.getElementById("moreBtn");
 const imageApiService  = new ImgApiService;
 const loadMoreBtn  = new NextPageBtn ({
     selector: ".more-btn",
